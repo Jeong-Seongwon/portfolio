@@ -23,7 +23,7 @@ Portfolio
 		- 도서관리 프로그램으로 회원들의 정보와 도서 대여정보를 데이터베이스에 저장</br>
 		- 대여 정보를 통해 인기있는 도서종류 등을 분석해 차후 도서 추가 시에 정보 활용 가능성</p>
 
-*보러가기: [도서관리 프로그램](https://github.com/Jeong-Seongwon/mygit/tree/main/library_manage)*
+*보러가기: [도서관리 프로그램](https://github.com/Jeong-Seongwon/portfolio/tree/main/library_manage)*
       
 ***
 <h2> #2. Project - 타이타닉 생존율 회귀분석 머신러닝 </h2>
@@ -54,7 +54,7 @@ Portfolio
 		- 더 많은 특성을 고려하거나 모델 파라미터를 조정함으로써 모델의 성능을 조금 더 향상시킬 수 있을 것으로 예상</p>
 
 
-*보러가기: [타이타닉 머신러닝](https://github.com/Jeong-Seongwon/mygit/tree/main/titanic)*
+*보러가기: [타이타닉 머신러닝](https://github.com/Jeong-Seongwon/portfolio/tree/main/titanic)*
 
 ***
 <h2> #3. Project - 숫자 손글씨 인식 딥러닝</h2>
@@ -85,5 +85,5 @@ Portfolio
 		- 그러나, 새로운 글씨체의 숫자 인식에서 다소 아쉬운 성능 </br>
     	- 앞으로 더 큰 데이터셋과 더 복잡한 모델을 사용하여 성능을 향상시킬 수 있을 것으로 예상</p>
 		
-*보러가기: [숫자 손글씨 딥러닝](https://github.com/Jeong-Seongwon/mygit/tree/main/mnist)*
+*보러가기: [숫자 손글씨 딥러닝](https://github.com/Jeong-Seongwon/portfolio/tree/main/mnist)*
 
