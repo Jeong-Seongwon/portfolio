@@ -4,6 +4,38 @@ Portfolio
 
 
 ***
+<h2> #5. Project - 얼굴 인식을 활용한 보안 시스템 개발</h2>
+
+- Background
+ <p> 영상에서 얼굴을 감지해 얼굴 인식으로 사람 인식 </p>
+
+- Summary
+
+	<p>(1). 데이터</br>
+    	- image : CelebA data set, Yale faces data set, video에서 찍은 사진 </br>
+		- video : 픽사베이 무료 동영상</p>
+    
+	<p>(2). 데이터 전처리 </br>
+    	- Yale faces data set의 이미지 jpg 형식으로 변환</br>
+		- CelebA data set에서 50개의 이미지로 Unknown faces 데이터 형성</br>
+		- 이미지 정규화 및 128*128 사이즈, GRAY 형식으로 변경</p>
+    
+  	<p>(3). 딥러닝 </br>
+		- CNN 모델 설계 및 학습 정확도 평가</p>
+    
+  	<p>(4). 프로그램 </br>
+    	- 매니저 프로그램 : 사진 촬영, 새로운 데이터 추가해서 딥러닝 모델 업데이트</br>
+		- 얼굴인식 프로그램 : 영상 내 얼굴 감지, 학습된 모델을 통한 얼굴 인식</p>
+
+  	<p>(5). 결론 </br>
+    	- 학습된 모델의 정확도가 아쉬운 성능을 보임 </br>
+		- 학습한 데이터와 다른 각도의 얼굴을 다른 사람으로 인식하는 경우 발생 </br>
+		- 데이터 셋의 확장 및 모델 개선을 통해 정확도 제고 필요 </p>
+		
+*보러가기: [얼굴 인식 프로그램](https://github.com/Jeong-Seongwon/portfolio/tree/main/face_recognition)*
+
+
+***
 <h2> #4. Project - 이미지 및 동영상 사람 얼굴 인식</h2>
 
 - Background
@@ -17,7 +49,7 @@ Portfolio
     
 	<p>(2). 데이터 전처리 </br>
     	- CelebA 데이터 약 20만개 이미지 중 2000개 샘플 데이터 활용</br>
-		- 이미지 정규화 및 256*256 사이즈, RGB 형식으로 변경
+		- 이미지 정규화 및 256*256 사이즈, RGB 형식으로 변경</br>
 		- 이미지를 최대 20도까지 무작위로 회전시켜 이미지 데이터 증강</p>
     
   	<p>(3). 딥러닝 </br>
